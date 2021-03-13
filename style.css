@@ -1,0 +1,59 @@
+.main{
+ width: 100vw;
+ height: 100vh;
+ outline: 2px solid black;
+ background-color: aqua;
+ overflow: hidden;
+}
+.container{
+ position: relative;
+ padding-left: 5%;
+ padding-right: 5%;
+ top: 10%;
+ left: 15%;
+ background-color: yellow;
+ width:50%;
+ height: 70%;
+ overflow: hidden;
+}
+
+.num{
+ margin-top: 1em;
+ height:80%;
+}
+#lcd{
+ margin-top: 1em;
+ border: 0px;
+ padding: 0px;
+ width: 100%;
+ height: 4em;
+ border-radius: 2em;
+ outline: none;
+ color: blanchedalmond;
+ text-align: right;
+ background-color: black;
+}
+.number{
+  margin: 2%;
+ width: 25%;
+ height: 20%;
+ background-color: darksalmon;
+}
+.button{
+ font-size: 200%;
+ border-radius: 1.5em;
+ border: none;
+}
+.operation{
+ margin-top: 4%;
+ width: 90%;
+ height: 15%;
+ background-color: darkorange;
+}
+.numpad{
+ text-align: center;
+height: 100%;
+}
+.functions{ 
+ text-align: center;
+}
